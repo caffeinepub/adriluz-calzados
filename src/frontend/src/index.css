@@ -6,35 +6,35 @@
 
 @layer base {
   :root {
-    /* Deep purple / gold luxury theme */
-    --background: 95.5 1.2% 96.2%;
-    --foreground: 13.5 2.3% 11.8%;
+    /* Fuchsia joy theme */
+    --background: 97% 0.01 340;
+    --foreground: 20% 0.02 340;
     --card: 100% 0 0;
-    --card-foreground: 13.5 2.3% 11.8%;
+    --card-foreground: 20% 0.02 340;
     --popover: 100% 0 0;
-    --popover-foreground: 13.5 2.3% 11.8%;
-    --primary: 18.5 9.2% 30.5%;
-    --primary-foreground: 95.6 1.8% 96.8%;
-    --secondary: 92.5 1.5% 92.8%;
-    --secondary-foreground: 13.5 2.3% 11.8%;
-    --muted: 93.2 1.2% 90.5%;
-    --muted-foreground: 45.5 1.8% 44.2%;
-    --accent: 69.8 9.2% 65.5%;
-    --accent-foreground: 13.5 2.3% 11.8%;
-    --destructive: 27.3 9.8% 42.5%;
-    --destructive-foreground: 95.6 1.8% 96.8%;
-    --border: 90.5 1.5% 88.8%;
-    --input: 90.5 1.5% 88.8%;
-    --ring: 18.5 9.2% 30.5%;
+    --popover-foreground: 20% 0.02 340;
+    --primary: 55% 0.28 330;
+    --primary-foreground: 98% 0 0;
+    --secondary: 94% 0.04 330;
+    --secondary-foreground: 20% 0.02 340;
+    --muted: 93% 0.02 330;
+    --muted-foreground: 55% 0.05 330;
+    --accent: 82% 0.18 330;
+    --accent-foreground: 20% 0.02 340;
+    --destructive: 55% 0.22 25;
+    --destructive-foreground: 98% 0 0;
+    --border: 90% 0.04 330;
+    --input: 90% 0.04 330;
+    --ring: 55% 0.28 330;
     --radius: 0.5rem;
 
-    /* Brand tokens */
-    --brand-dark: 18.5 9.2% 30.5%; /* deep aubergine */
-    --brand-darker: 16.8 10.1% 22.8%; /* even darker purple */
-    --brand-gold: 69.5 9.4% 65.8%; /* warm gold */
-    --brand-light-bg: 95.5 1.2% 96.2%; /* lavender white */
-    --brand-text-on-dark: 95.8 1.8% 96.8%;
-    --brand-text-on-light: 13.5 2.3% 11.8%;
+    /* Brand tokens - fuchsia */
+    --brand-dark: 55% 0.28 330; /* vibrant fuchsia */
+    --brand-darker: 42% 0.25 330; /* deep fuchsia */
+    --brand-gold: 82% 0.16 80; /* warm yellow-gold accent */
+    --brand-light-bg: 97% 0.01 340; /* light pinkish white */
+    --brand-text-on-dark: 99% 0 0;
+    --brand-text-on-light: 20% 0.02 340;
   }
 }
 
@@ -66,7 +66,7 @@
   border-radius: 3px;
 }
 
-/* Gold shimmer on logo */
+/* Fuchsia shimmer on logo */
 .logo-gold {
   color: oklch(var(--brand-gold));
   font-family: "Playfair Display", serif;
@@ -76,12 +76,12 @@
 
 .btn-gold {
   background: oklch(var(--brand-gold));
-  color: oklch(var(--brand-darker));
+  color: oklch(20% 0.02 340);
   font-weight: 600;
   letter-spacing: 0.05em;
 }
 .btn-gold:hover {
-  background: oklch(0.65 0.09 65);
+  background: oklch(75% 0.16 80);
 }
 
 .btn-purple {
@@ -97,8 +97,8 @@
 .hero-overlay {
   background: linear-gradient(
     to right,
-    oklch(var(--brand-darker) / 0.88) 0%,
-    oklch(var(--brand-darker) / 0.6) 50%,
+    oklch(42% 0.25 330 / 0.88) 0%,
+    oklch(42% 0.25 330 / 0.6) 50%,
     transparent 100%
   );
 }
@@ -109,7 +109,7 @@
 }
 .product-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 40px oklch(var(--brand-dark) / 0.18);
+  box-shadow: 0 12px 40px oklch(55% 0.28 330 / 0.22);
 }
 
 /* Section divider */
