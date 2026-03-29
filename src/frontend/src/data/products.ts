@@ -37,7 +37,7 @@ export const PRODUCTS: Product[] = [
     name: "Sandalia Strass Dorada",
     ref: "DAE-002",
     category: "damas-elegantes",
-    priceUSD: 38,
+    priceUSD: 35,
     sizes: ["35", "36", "37", "38", "39", "40"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0189-019d3173-cb52-76c8-add2-5020a3188613-2.jpg",
@@ -49,7 +49,7 @@ export const PRODUCTS: Product[] = [
     name: "Pump Satinado Nude",
     ref: "DAE-003",
     category: "damas-elegantes",
-    priceUSD: 32,
+    priceUSD: 35,
     sizes: ["35", "36", "37", "38", "39", "40"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0165-019d3173-cd3e-761d-b06f-e92e461674ee-3.jpg",
@@ -61,7 +61,7 @@ export const PRODUCTS: Product[] = [
     name: "Botín Chelsea Elegante",
     ref: "DAE-004",
     category: "damas-elegantes",
-    priceUSD: 42,
+    priceUSD: 35,
     sizes: ["35", "36", "37", "38", "39", "40"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0179_1-019d3173-cd6e-7558-9eec-5b2076274cd4-4.jpg",
@@ -73,7 +73,7 @@ export const PRODUCTS: Product[] = [
     name: "Stiletto Punta Fina",
     ref: "DAE-005",
     category: "damas-elegantes",
-    priceUSD: 36,
+    priceUSD: 35,
     sizes: ["35", "36", "37", "38", "39", "40"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0196-019d3173-ccf6-76fb-afe9-a4fd63b58af3-5.jpg",
@@ -85,7 +85,7 @@ export const PRODUCTS: Product[] = [
     name: "Sandalia Tira Fina Plateada",
     ref: "DAE-006",
     category: "damas-elegantes",
-    priceUSD: 30,
+    priceUSD: 35,
     sizes: ["35", "36", "37", "38", "39", "40"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0179-019d3173-cd6f-73d7-ad77-886007e88e8b-6.jpg",
@@ -97,7 +97,7 @@ export const PRODUCTS: Product[] = [
     name: "Peeptoe Floral",
     ref: "DAE-007",
     category: "damas-elegantes",
-    priceUSD: 34,
+    priceUSD: 35,
     sizes: ["35", "36", "37", "38", "39", "40"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0180-019d3173-cdaf-700d-9d17-7c18f2baa641-7.jpg",
@@ -110,7 +110,7 @@ export const PRODUCTS: Product[] = [
     name: "Slip-On Cuero Suave",
     ref: "DAC-001",
     category: "damas-casuales",
-    priceUSD: 28,
+    priceUSD: 40,
     sizes: ["35", "36", "37", "38", "39", "40"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0174-019d3173-ce90-750b-99ce-8d2074f33d20-8.jpg",
@@ -122,7 +122,7 @@ export const PRODUCTS: Product[] = [
     name: "Sneaker Lona Blanca",
     ref: "DAC-002",
     category: "damas-casuales",
-    priceUSD: 25,
+    priceUSD: 35,
     sizes: ["35", "36", "37", "38", "39", "40"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0168-019d3173-cebf-71ca-a4fb-3c7a80b85aca-9.jpg",
@@ -134,7 +134,7 @@ export const PRODUCTS: Product[] = [
     name: "Bota Tobillera Casual",
     ref: "DAC-003",
     category: "damas-casuales",
-    priceUSD: 33,
+    priceUSD: 35,
     sizes: ["35", "36", "37", "38", "39", "40"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0188-019d3173-ce9c-767f-9017-399bf830312e-10.jpg",
@@ -147,7 +147,7 @@ export const PRODUCTS: Product[] = [
     name: "Running Pro Dama",
     ref: "DAD-001",
     category: "damas-deportivos",
-    priceUSD: 30,
+    priceUSD: 35,
     sizes: ["35", "36", "37", "38", "39", "40"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0172-019d3173-cf60-7183-8d51-f7e5f3939c31-11.jpg",
@@ -159,7 +159,7 @@ export const PRODUCTS: Product[] = [
     name: "Training Flex",
     ref: "DAD-002",
     category: "damas-deportivos",
-    priceUSD: 27,
+    priceUSD: 35,
     sizes: ["35", "36", "37", "38", "39", "40"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0167-019d3173-cf32-7549-94bf-fd58f0811e47-12.jpg",
@@ -184,7 +184,7 @@ export const PRODUCTS: Product[] = [
     name: "Mocasín Ejecutivo",
     ref: "CAB-002",
     category: "caballeros",
-    priceUSD: 38,
+    priceUSD: 40,
     sizes: ["40", "41", "42", "43", "44", "45"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0171-019d3173-cf61-7441-8099-38116b654148-14.jpg",
@@ -196,7 +196,7 @@ export const PRODUCTS: Product[] = [
     name: "Sneaker Urban Caballero",
     ref: "CAB-003",
     category: "caballeros",
-    priceUSD: 32,
+    priceUSD: 35,
     sizes: ["40", "41", "42", "43", "44", "45"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0195-019d3173-cf2e-7013-9715-ace93af6f62c-15.jpg",
@@ -209,7 +209,7 @@ export const PRODUCTS: Product[] = [
     name: "Zapatilla Escolar Niño",
     ref: "NIN-001",
     category: "ninos",
-    priceUSD: 18,
+    priceUSD: 35,
     sizes: ["28", "29", "30", "31", "32", "33", "34"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0166-019d3173-cfe3-771f-8047-b27b9edb5eb4-16.jpg",
@@ -221,7 +221,7 @@ export const PRODUCTS: Product[] = [
     name: "Deportivo Junior",
     ref: "NIN-002",
     category: "ninos",
-    priceUSD: 20,
+    priceUSD: 35,
     sizes: ["28", "29", "30", "31", "32", "33", "34"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0193-019d3173-cfc2-77ce-acfc-832b12217304-17.jpg",
@@ -233,7 +233,7 @@ export const PRODUCTS: Product[] = [
     name: "Sandalia Playera Niño",
     ref: "NIN-003",
     category: "ninos",
-    priceUSD: 15,
+    priceUSD: 35,
     sizes: ["28", "29", "30", "31", "32", "33", "34"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0192-019d3173-cfe9-73cd-b55f-55d92b91ba6e-18.jpg",
@@ -246,7 +246,7 @@ export const PRODUCTS: Product[] = [
     name: "Bailarina Princesa",
     ref: "NNA-001",
     category: "ninas",
-    priceUSD: 18,
+    priceUSD: 35,
     sizes: ["28", "29", "30", "31", "32", "33", "34"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0175-019d3173-cfd3-756d-b127-b5498766b430-19.jpg",
@@ -259,7 +259,7 @@ export const PRODUCTS: Product[] = [
     name: "Bota Botita Niña",
     ref: "NNA-002",
     category: "ninas",
-    priceUSD: 22,
+    priceUSD: 35,
     sizes: ["28", "29", "30", "31", "32", "33", "34"],
     imageUrl:
       "/assets/uploads/img-20260326-wa0183-019d3173-cfee-76fd-9925-4a4b8a224341-20.jpg",
